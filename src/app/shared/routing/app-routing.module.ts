@@ -5,7 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { SignInComponent } from '../../components/sign-in/sign-in.component';
 import { UserProfileComponent } from '../../components/user-profile/user-profile.component';
 
-// Import canActivate guard services
+// Import canActivate guards
 import { AuthGuard } from "../../shared/guard/auth.guard";
 import { SecureInnerPagesGuard } from "../../shared/guard/secure-inner-pages.guard";
 

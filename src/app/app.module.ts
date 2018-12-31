@@ -14,6 +14,10 @@ import { AngularFireModule } from "@angular/fire";
 import { AngularFireAuthModule } from "@angular/fire/auth";
 import { environment } from '../environments/environment';
 
+// Import canActivate guards
+import { AuthGuard } from "./shared/guard/auth.guard";
+import { SecureInnerPagesGuard } from "./shared/guard/secure-inner-pages.guard";
+
 // Auth service
 import { AuthService } from "./shared/services/auth.service";
 
@@ -30,7 +34,7 @@ import { AuthService } from "./shared/services/auth.service";
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule
   ],
-  providers: [AuthService],
+  providers: [AuthService, AuthGuard, SecureInnerPagesGuard],
   bootstrap: [AppComponent]
 })
 
