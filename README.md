@@ -2,7 +2,7 @@
 
 A sample app for Angular routes protection using canActivate route guard method with Firebase real-time database. Checkout the demo [https://angular-firebase-route-guard.firebaseapp.com](https://angular-firebase-route-guard.firebaseapp.com)
 
-Step by step tutorial [Protect Angular 2 Routes with canActivate Guard for Firebase Users](https://www.positronx.io/protect-angular-2-routes-with-canactivate-guard-for-firebase-users/)
+Step by step article [Protect Angular 2 Routes with canActivate Guard for Firebase Users](https://www.positronx.io/protect-angular-2-routes-with-canactivate-guard-for-firebase-users/)
 
 **If you love this project then show your love by simply sharing this repo with others and don't forget to put a GitHub star ⭐ ! Thanks** :pray:
 
